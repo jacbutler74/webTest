@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                font-family:'Franklin Gothic Medium';
+                text-align: center;
+                right: 0;
+                left: 0;
+                width: 50px;
+                text-shadow: 1px 1px 1px goldenrod,
+                        2px 2px 2px rgb(134, 6, 85),
+                        4px 4px 2px whitesmoke,
+                        3px 3px 8px rgb(243, 113, 237),
+                        4px 4px 1px black;
+                text-decoration: rgb(159, 119, 235) wavy overline;
+                text-decoration: wavy underline;
+                letter-spacing: 10px;
+            }
+            p {
+                font-family: 'BlinkMacSystemFont';
+            }
+            .container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .container div {
+                height: 70px;
+                width: 100px;
+                color: palevioletred;
+                text-decoration: underline crimson;
+            }
+            body {
+                height: 380px;
+                background-color: black;
+                background-image: url(pills.gif);
+            }
+            .default.cursor {cursor: url(defaultYel.cur), auto;}
+            .pointer.cursor {cursor: url(DEFYNEW.cur), auto;}
+        </style>
+        <script src="stuff.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LINKS!!!</title>
+        <link rel="icon", type="image/png", href="apple-touch-icon.png">
+    </head>
+    <body class="default cursor">
+        <div class="container">
+            <div><h1><a href="https://twitter.com" target="_blank" onclick="link()" class="pointer cursor">Twitter</a></h1></div>
+            <div><h1><a href="https://dexscreener.com/" target="_blank" onclick="link()" class="pointer cursor">Coin</a></h1></div>
+        </div>
+    </body>
+</html>
+
