@@ -1,3 +1,5 @@
+@import url(animation.css);
+
 h1 {
     position: absolute;
     right: 0;
@@ -19,13 +21,10 @@ h1 {
     padding-right: 11.5%;
 }
 
-title {
-    color: cornflowerblue;
-}
-
 body {
     background-color: black;
     background-image: url(cr.gif);
+    transform: translateY(-50px);
 }
 
 .container {
@@ -75,3 +74,29 @@ body {
 }
 
 
+.slides {
+    position: absolute;
+    transform: translateY(120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides li {
+    list-style: none;
+    transform: translateX(-19px);
+}
+
+.slides li img {
+    width: 100px;
+    height: 85px;
+    border: 10px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: black;
+    opacity: .5;
+}
+
+.slides li img:hover {
+    animation: trans 200ms forwards, changeBack 5s;
+}

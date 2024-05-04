@@ -67,7 +67,7 @@
 @keyframes slideLR {
     from {
         padding-left: 100%;
-        padding-right: 25%;
+        padding-right: 0%;
         padding-top: 50%;
         font-size: small;
         opacity: .2;
@@ -120,6 +120,7 @@
         opacity: 1;
     }
 }
+
 
 
 button {
@@ -189,3 +190,33 @@ button {
     border-radius: 10px;
 }
 
+
+@keyframes changeBack {
+    0% {
+      background-color:#d49ceb;
+    }
+    25% {
+        background-color:blueviolet;
+    }
+    50% {
+        background-color:cadetblue;
+    }
+    75% {
+        background-color:aquamarine;
+    }
+    100% {
+        background-color:#f2cef3;
+    }
+  }
+
+  @keyframes trans {
+    0% {
+        width: 100px;
+        height: 85px;
+    }
+    100% {
+        opacity: 1;
+        width: 115px;
+        height: 110px
+    }
+}

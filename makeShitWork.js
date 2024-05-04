@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', con);
 
-
 function con() {
     document.getElementById('buttonB').addEventListener('click', prom);
 }
@@ -39,3 +38,9 @@ function vid() {
 
     }
 }
+
+function vidImg(url) {
+    document.getElementById('source_one').src = url;
+    
+}
+
