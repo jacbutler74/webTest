@@ -98,6 +98,5 @@ body {
 }
 
 .slides li img:hover {
-    cursor: url(DEFYNEW.cur), auto;
     animation: trans 200ms forwards, changeBack 5s;
 }
