@@ -63,7 +63,7 @@ body {
     height: 800px; /* Set video height to 100% */
     top: 0;
     left: 0;
-    cursor: url(DEFYNEW.cur), auto;
+    cursor: url(defaultYel.cur), auto;
   }
 
 .default.cursor {cursor: url(defaultYel.cur), auto;}
