@@ -26,3 +26,4 @@ function vidImg(url) {
     
 }
 
+const vids = document.getElementById('source_one').mut
