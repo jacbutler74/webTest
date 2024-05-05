@@ -162,6 +162,7 @@ button {
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing-button-85 20s linear infinite;
+    ;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
 }
@@ -190,23 +191,51 @@ button {
     border-radius: 10px;
 }
 
+@keyframes epic {
+    from {
+        width: 20px;
+    }
+    to {
+        width: 100px
+    }
+}
+
 
 @keyframes changeBack {
     0% {
       background-color:#d49ceb;
     }
-    25% {
+    10% {
         background-color:blueviolet;
     }
-    50% {
-        background-color:cadetblue;
+    20% {
+        background-color:darkcyan;
     }
-    75% {
+    30% {
+        background-color:coral;
+    }
+    40% {
         background-color:aquamarine;
     }
-    100% {
+    50% {
         background-color:#f2cef3;
     }
+    60% {
+        background-color:darkslateblue;
+    }
+    70% {
+        background-color:darkorchid;
+    }
+    80% {
+        background-color:darkgoldenrod;
+    }
+    90% {
+        background-color:antiquewhite;
+    }
+    100% {
+        background-color:#f0b2e2;
+    }
+    
   }
 
   @keyframes trans {
