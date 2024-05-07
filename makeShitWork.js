@@ -30,14 +30,17 @@ const videos = [
     "fentWorld.mp4",
     "2nd.mp4"
 ];
-
+var x = 0;
 function vids() {
-    const vid = document.getElementById('source_one');
-    if (vid.src === "fentWorld.mp4") {
-        console.log(videos[1]);
+    var vid = document.getElementById('source_one');
+    if (x === 0) {
         vid.src = "2nd.mp4";
+        ++x;
     }
     else {
         vid.src = "fentWorld.mp4";
+        x = 0;
     }
+    vid.load();
+    vid.play();
 }
