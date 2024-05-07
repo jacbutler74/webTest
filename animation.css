@@ -14,7 +14,7 @@
         opacity: .4;
         padding-top: 0%;
         font-size: 650%;
-        padding-right: 11.5%;;
+        padding-right: 11.5%;
     }
 }
 
@@ -29,12 +29,14 @@
         padding-right: 100%;
         font-size: small;
         opacity: .2;
+        transform: rotate(0deg);
     }
     to {
         padding-right: 0%;
         font-size: 650%;
         opacity: .4;
-        padding-right: 11.5%;;
+        padding-right: 11.5%;
+        transform: rotate(-360deg);
     }
 }
 
@@ -49,12 +51,14 @@
         padding-left: 100%;
         font-size: small;
         opacity: .2;
+        transform: rotate(0deg);
     }
     to {
         padding-left: 0%;
         font-size: 650%;
         opacity: 0.4;
-        padding-right: 11.5%;;
+        padding-right: 11.5%;
+        transform: rotate(360deg);
     }
 }
 
@@ -71,6 +75,7 @@
         padding-top: 50%;
         font-size: small;
         opacity: .2;
+        transform: rotate(0deg);
     }
     to {
         padding-left: 0%;
@@ -78,7 +83,8 @@
         padding-top: 0%;
         font-size: 650%;
         opacity: 0.4;
-        padding-right: 11.5%;;
+        padding-right: 11.5%;
+        transform: rotate(-360deg);
     }
 }
 
@@ -95,6 +101,7 @@
         padding-top: 50%;
         font-size: small;
         opacity: .2;
+        transform: rotate(0deg);
     }
     to {
         padding-left: 0%;
@@ -102,7 +109,8 @@
         padding-top: 0%;
         font-size: 650%;
         opacity: 0.4;
-        padding-right: 11.5%;;
+        padding-right: 11.5%;
+        transform: rotate(360deg)
     }
 }
 

@@ -23,7 +23,21 @@ function link() {
 
 function vidImg(url) {
     document.getElementById('source_one').src = url;
-    
 }
 
-const vids = document.getElementById('source_one').mut
+
+const videos = [
+    "fentWorld.mp4",
+    "2nd.mp4"
+];
+
+function vids() {
+    const vid = document.getElementById('source_one');
+    if (vid.src === "fentWorld.mp4") {
+        console.log(videos[1]);
+        vid.src = "2nd.mp4";
+    }
+    else {
+        vid.src = "fentWorld.mp4";
+    }
+}

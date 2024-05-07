@@ -23,7 +23,9 @@ h1 {
 
 body {
     background-color: black;
-    background-image: url(cr.gif);
+    background-image: url(gif1.gif);
+    background-repeat: repeat;
+    background-size: 600px;
     transform: translateY(-50px);
 }
 
@@ -36,7 +38,10 @@ body {
     height: 200;
     width: auto;
     position: relative;
+    transform: translateX(-50px);
 }
+
+
 
 .butContainer {
     display: flex;
